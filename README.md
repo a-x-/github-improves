@@ -4,7 +4,7 @@
 
 ## Instalation
 ### Chrome / Chromium / Opera / Yandex Browser
-1. Download plugin [zip](https://github.com/a-x-/github-no-pagination/archive/master.zip) (and extract)
+1. Download plugin [zip](https://github.com/a-x-/github-improves/archive/master.zip) (and extract)
 1. Go to browser plugins page:  `chrome://extensions/`, `opera://extensions/` или `browser://tune/` (YaBro)
 1. Drag plugin's dir to the page
 1. Approve instalation.
