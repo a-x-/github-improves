@@ -1,0 +1,24 @@
+{
+    "name": "github improves",
+    "version": "0.1",
+    "permissions": [
+        "tabs", "https://github.yandex-team.ru", "https://github.com"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://github.yandex-team.ru",
+                "https://github.com"
+            ],
+            "js": ["jquery.min.js", "contentscript.user.js"],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "icons": {
+        "128": "icon.png"
+    },
+    "manifest_version": 2,
+
+    "update_url": "https://github.yandex-team.ru/invntrm/github-improves/raw/releases/update_manifest.xml"
+}
